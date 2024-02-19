@@ -1,7 +1,11 @@
+import { Nav } from "./Nav.jsx";
+import { Panel } from "./Panel.jsx";
+
 export function App() {
   return (
     <>
-      <h1>This is the App Component</h1>
+      <Nav />
+      <Panel />
     </>
   );
 }
