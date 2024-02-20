@@ -6,7 +6,21 @@
   align-items: center;
   width: 1440px;
   height: 80px;
-  background-color: rgba(255, 21, 21, 0.4);
+  background-color: rgba(83, 6, 44, 0.6);
 
   z-index: 50;
+}
+
+.navbar nav {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Spirax", sans-serif;
+  font-size: 3rem;
 }
