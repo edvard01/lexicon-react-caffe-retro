@@ -4,9 +4,9 @@ export function Nav() {
   return (
     <div className="navbar">
       <nav>
-        <a href="#">Hot</a>
-        <a href="#">Juicy</a>
-        <a href="#">Cosy</a>
+        <a href="#hot">Hot</a>
+        <a href="#juicy">Juicy</a>
+        <a href="#cosy">Cosy</a>
       </nav>
     </div>
   );

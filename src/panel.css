@@ -1,14 +1,32 @@
-.panel {
-  display: flex;
-  height: 900px;
-
-  justify-content: center;
-  align-items: center;
-
+#hot {
   background-image: url(assets/hot.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#juicy {
+  background-image: url(assets/juicy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#cosy {
+  background-image: url(assets/cosy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.panel {
+  display: flex;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 5px solid red;
 }
 
 .panel .content {
@@ -42,4 +60,40 @@
 .panel .content .box-2 {
   text-align: center;
   align-self: flex-end;
+}
+
+.panel .content .price-box {
+  display: flex;
+  flex-direction: row;
+
+  width: 450px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-top: 20px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.panel .content .price-box .drinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel .content .price-box .drinks p {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-left: 12px;
+  font-family: "Poiret One", sans-serif;
+
+  color: white;
+}
+
+.panel .content .price-box .prices p {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-right: 12px;
+  font-family: "Poiret One", sans-serif;
+
+  color: white;
 }
